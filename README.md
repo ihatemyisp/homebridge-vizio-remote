@@ -8,7 +8,6 @@ Features of this package include to ability to:
 - Switch the device inputs
 - Navigate the device menus
 
-
 ## Installation
 1) Visit the [Homebridge repository](https://github.com/nfarina/homebridge) and follow the instructions.
 2) Clone this repository by running the following command:
