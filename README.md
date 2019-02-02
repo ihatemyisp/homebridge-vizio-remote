@@ -15,7 +15,7 @@ Then, install `homebridge-vizio-remote`:
 
 ````
 git clone https://github.com/bms2993/homebridge-vizio-remote
-npm -i
+sudo npm install -g
 ````
 
 ## Setting Up
