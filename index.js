@@ -5,7 +5,7 @@ module.exports = function(homebridge)
 {
         service = homebridge.hap.Service;
         characteristic = homebridge.hap.Characteristic;
-        homebridge.registerAccessory('homebridge-vizio', 'VizioDisplay', homebridge-vizio);
+        homebridge.registerAccessory('homebridge-vizio', 'VizioDisplay', homebridge_vizio);
 }
 
 function homebridge_vizio(log, config, api)

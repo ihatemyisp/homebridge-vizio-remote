@@ -22,7 +22,10 @@ cd ./homebridge-vizio-remote
 4) Install this package by running the following command:
 ````
 npm install
+
 ````
+
+### This plugin can not be installed beside homebridge-vizio. Doing so will cause one or the other to crash homebridge on launch
 
 ## Configuration
 1) To configure this package, the IP address of the device must be known. This can be found with either the SmartCast app or on the device menu.
