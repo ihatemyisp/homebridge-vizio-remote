@@ -48,7 +48,7 @@ Homebridge uses a [JSON file](https://github.com/nfarina/homebridge#quick-overvi
 ## Controlling Your Display
 Currently, `homebridge-vizio-remote` supports:
 - Powering on and off the display
-- Pause, and play media controls
+- Pause and play media controls
 - Volume up and down controls
 - Navigation controls
 - Info control
