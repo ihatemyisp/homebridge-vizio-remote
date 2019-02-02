@@ -45,4 +45,4 @@ node node_modules/homebridge-vizio-remote/setup.js
 ````
 
 ## Attribution
-This package is a fork of [`homebridge-vizio`](https://github.com/johnwickham/homebridge-vizio) by [John Wickham](https://github.com/johnwickham) which is turn based on [`vizio-smart-cast`](https://github.com/heathbar/vizio-smart-cast/blob/master/README.md) by [Heath Paddock](https://github.com/heathbar). Thank you to everyone involved.
+This package is a fork of [`homebridge-vizio`](https://github.com/johnwickham/homebridge-vizio) by [John Wickham](https://github.com/johnwickham). Thank you to everyone involved.
