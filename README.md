@@ -32,7 +32,7 @@ node node_modules/homebridge-vizio-remote/setup.js
 3) Enter the IP address of the device when prompted.
 4) Enter the PIN code that the device shows on the screen. 
 5) Once the device pairing process is complete, take note of the device access token.
-6) In the Homebridge configuration file, add the following:
+6) In the Homebridge configuration file, add the following entry:
 ````
 "accessories": [
     {
