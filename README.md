@@ -10,7 +10,7 @@ Features of this package include to ability to:
 
 
 ## Installation
-1) Visit the Homebridge repository and follow the instructions to install Homebridge.
+1) Visit the [Homebridge repository](https://github.com/nfarina/homebridge) and follow the instructions to install Homebridge.
 2) Clone this repository by running the following command:
 ````
 git clone https://github.com/bms2993/homebridge-vizio-remote
