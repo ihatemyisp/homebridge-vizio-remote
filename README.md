@@ -1,4 +1,5 @@
 # Homebridge Vizio Remote
+![alt text](https://github.com/bms2993/homebridge-vizio-remote/raw/master/banner.png)
 A Homebridge plugin that enables HomeKit remote control support for Vizio SmartCast devices
 
 Features of this package include to ability to:
