@@ -1,7 +1,7 @@
 {
   "name": "homebridge-vizio-remote",
   "version": "1.0.0",
-  "description": "Control your Vizio Smartcast display from HomeKit and the remote widget",
+  "description": "A Homebridge plugin that enables HomeKit remote control support for Vizio SmartCast devices",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bms2993/homebridge-vizio-remote.git"
