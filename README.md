@@ -1,4 +1,4 @@
-# homebridge-vizio
+# homebridge-vizio-remote
 A Homebridge plugin for controlling your Vizio Smartcast display using HomeKit or Siri. [What can I do with it?](#controlling-your-display)
 
 This fork includes TV remote support for iOS 12.2 devices. Newer Vizio TVs may have incompatibilities with vizio-smart-cast button mapping. A fix for this is included with updated button maps for newer models (2017-2018).
@@ -10,21 +10,22 @@ You'll need to install [Homebridge](https://github.com/nfarina/homebridge) first
 sudo npm install -g homebridge
 ````
 
-Then, install `homebridge-vizio`:
+Then, install `homebridge-vizio-remote`:
 
 ````
-npm install homebridge-vizio
+git clone https://github.com/bms2993/homebridge-vizio-remote
+npm -i
 ````
 
 ## Setting Up
-To configure `homebridge-vizio`, you'll need to know the LAN IP address or hostname of your display. You can find this in the SmartCast app, or on the display's menu.
+To configure `homebridge-vizio-remote`, you'll need to know the LAN IP address or hostname of your display. You can find this in the SmartCast app, or on the display's menu.
 
 **Note**: it's recommended that you use the display's hostname, as it isn't likely to change like it's IP address will. The default hostname appears to be `viziocasttv.local`.
 
-You'll need to pair your display with Homebridge so your display will accept commands to control it. `homebridge-vizio` comes with a helpful setup script that walks you through the process. To use it, use:
+You'll need to pair your display with Homebridge so your display will accept commands to control it. `homebridge-vizio-remote` comes with a helpful setup script that walks you through the process. To use it, use:
 
 ````
-node node_modules/homebridge-vizio/setup.js
+node node_modules/homebridge-vizio-remote/setup.js
 ````
 
 You'll be asked for the IP address of your display (try using `viziocasttv.local` if you don't know it), then for the PIN code that the display shows on-screen. Then, you'll be shown an "access token"; copy the token, you'll need it in a moment.
@@ -44,7 +45,12 @@ Homebridge uses a [JSON file](https://github.com/nfarina/homebridge#quick-overvi
 ````
 
 ## Controlling Your Display
-Currently, `homebridge-vizio` only supports turning your display on and off. As Apple adds more service capabilities and accessory types to HomeKit, `homebridge-vizio` can grow to support more functionality.
+Currently, `homebridge-vizio-remote` supports:
+- Powering on and off the display
+- Pause, and play media controls
+- Volume up and down controls
+- Navigation controls
+- Info control
 
 ## How it Works
-`homebridge-vizio` is based on [`vizio-smart-cast`](https://github.com/heathbar/vizio-smart-cast/blob/master/README.md) by [Heath Paddock](https://github.com/heathbar). Many thanks to him for his excellent work.
+`homebridge-vizio-remote` is based on [`homebridge-vizio`](https://github.com/johnwickham/homebridge-vizio) by [John Wickham](https://github.com/johnwickham) which is in turn based on [`vizio-smart-cast`](https://github.com/heathbar/vizio-smart-cast/blob/master/README.md) by [Heath Paddock](https://github.com/heathbar). Many thanks to everyone involved.
