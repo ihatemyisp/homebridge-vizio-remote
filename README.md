@@ -1,7 +1,7 @@
-# homebridge-vizio-remote
-A Homebridge plugin for controlling your Vizio Smartcast display using HomeKit or Siri. [What can I do with it?](#controlling-your-display)
+# Homebridge Vizio Remote
+A Homebridge plugin to control your Vizio Smartcast display with added remote support for iOS 12.2
 
-This fork includes TV remote support for iOS 12.2 devices. Newer Vizio TVs may have incompatibilities with vizio-smart-cast button mapping. A fix for this is included with updated button maps for newer models (2017-2018).
+This fork includes TV remote support for iOS 12.2 devices. Newer Vizio TVs may have incompatibilities with `vizio-smart-cast` button mapping. A fix for this is included with updated button maps for newer models (2017-2018).
 
 ## Getting Started
 You'll need to install [Homebridge](https://github.com/nfarina/homebridge) first:
@@ -20,9 +20,9 @@ npm -i
 ## Setting Up
 To configure `homebridge-vizio-remote`, you'll need to know the LAN IP address or hostname of your display. You can find this in the SmartCast app, or on the display's menu.
 
-**Note**: it's recommended that you use the display's hostname, as it isn't likely to change like it's IP address will. The default hostname appears to be `viziocasttv.local`.
+**Note**: It is recommended that you use the display's hostname, as it isn't likely to change like it's IP address will. The default hostname appears to be `viziocasttv.local`.
 
-You'll need to pair your display with Homebridge so your display will accept commands to control it. `homebridge-vizio-remote` comes with a helpful setup script that walks you through the process. To use it, use:
+You'll need to pair your display with Homebridge so your display will accept commands to control it. This repository comes with a helpful setup script that walks you through the process. To use it, use:
 
 ````
 node node_modules/homebridge-vizio-remote/setup.js
@@ -52,5 +52,5 @@ Currently, `homebridge-vizio-remote` supports:
 - Navigation controls
 - Info control
 
-## How it Works
+## How It Works
 `homebridge-vizio-remote` is based on [`homebridge-vizio`](https://github.com/johnwickham/homebridge-vizio) by [John Wickham](https://github.com/johnwickham) which is in turn based on [`vizio-smart-cast`](https://github.com/heathbar/vizio-smart-cast/blob/master/README.md) by [Heath Paddock](https://github.com/heathbar). Many thanks to everyone involved.
