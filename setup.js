@@ -1,3 +1,6 @@
+// This script is from https://github.com/johnwickham/homebridge-vizio
+// By John Wickham
+
 var smartcast = require('vizio-smart-cast');
 var readline = require('readline');
 var display;
