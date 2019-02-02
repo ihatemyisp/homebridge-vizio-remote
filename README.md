@@ -2,7 +2,7 @@
 ![alt text](https://github.com/bms2993/homebridge-vizio-remote/raw/master/banner.png)
 A Homebridge plugin that enables HomeKit remote control support for Vizio SmartCast devices
 
-Features of this package include to ability to:
+Features of this package include the ability to:
 - Toggle the device power
 - Switch the device inputs
 - Control the device media
@@ -46,4 +46,4 @@ node node_modules/homebridge-vizio-remote/setup.js
 ````
 
 ## Attribution
-This package is a fork of [`homebridge-vizio`](https://github.com/johnwickham/homebridge-vizio) by [John Wickham](https://github.com/johnwickham). Thank you to everyone involved.
+This package is a fork of [`homebridge-vizio`](https://github.com/johnwickham/homebridge-vizio) by [John Wickham](https://github.com/johnwickham).
