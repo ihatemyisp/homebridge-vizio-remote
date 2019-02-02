@@ -1,4 +1,5 @@
 # Homebridge Vizio Remote
+![alt text](https://pbs.twimg.com/media/DyYIQnTX4AAVKuV.jpg)
 A Homebridge plugin to control your Vizio Smartcast display with added remote support for iOS 12.2
 
 This fork includes TV remote support for iOS 12.2 devices. Newer Vizio TVs may have incompatibilities with `vizio-smart-cast` button mapping. A fix for this is included with updated button maps for newer models (2017-2018).
