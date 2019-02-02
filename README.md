@@ -1,6 +1,8 @@
 # homebridge-vizio
 A Homebridge plugin for controlling your Vizio Smartcast display using HomeKit or Siri. [What can I do with it?](#controlling-your-display)
 
+This fork includes TV remote support for iOS 12.2 iPhones. Newer Vizio TVs may have incompatibilities with vizio-smart-cast button mapping. A fix for this is included with updated button maps for newer models (2017-2018).
+
 ## Getting Started
 You'll need to install [Homebridge](https://github.com/nfarina/homebridge) first:
 
