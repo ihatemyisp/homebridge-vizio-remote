@@ -3,8 +3,8 @@ A Homebridge plugin that enables HomeKit remote control support for Vizio SmartC
 
 Features of this package include to ability to:
 - Toggle the device power
-- Control the device media
 - Switch the device inputs
+- Control the device media
 - Adjust the device volume
 - Navigate the device menus
 
