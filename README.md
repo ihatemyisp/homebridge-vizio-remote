@@ -10,6 +10,9 @@ Features of this package include the ability to:
 - Navigate the device menus
 
 ## Installation
+
+### This plugin can not be installed beside [homebridge-vizio](https://github.com/JohnWickham/homebridge-vizio). Doing so will cause one or the other to crash homebridge on launch
+
 1) Visit the [Homebridge repository](https://github.com/nfarina/homebridge) and follow the instructions.
 2) Clone this repository by running the following command:
 ````
@@ -19,19 +22,16 @@ git clone https://github.com/bms2993/homebridge-vizio-remote
 ````
 cd ./homebridge-vizio-remote
 ````
-4) Install this package by running the following command:
+4) Install this package by running the following command (this may vary depending on your system setup):
 ````
-npm install
-
+sudo npm install -g
 ````
-
-### This plugin can not be installed beside homebridge-vizio. Doing so will cause one or the other to crash homebridge on launch
 
 ## Configuration
 1) To configure this package, the IP address of the device must be known. This can be found with either the SmartCast app or on the device menu.
-2) To pair the device with Homebridge, run the following command:
+2) To pair the device with Homebridge, run the following command (in the cloned folder):
 ````
-node node_modules/homebridge-vizio-remote/setup.js
+node setup.js
 ````
 3) Enter the IP address of the device when prompted.
 4) Enter the PIN code that the device shows on the screen. 
